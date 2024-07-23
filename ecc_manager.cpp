@@ -29,7 +29,7 @@ auto retries = 3;
 static constexpr auto delay = std::chrono::milliseconds{100};
 static constexpr auto interval = std::chrono::seconds{1};
 #ifdef ECC_PHOSPHOR_LOGGING
-static constexpr auto ceInterval = std::chrono::hours ceInterval{1};
+static constexpr auto ceInterval = std::chrono::hours{1};
 #endif
 static constexpr uint16_t selBMCGenID = 0x0020;
 void ECC::init()
